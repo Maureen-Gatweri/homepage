@@ -1,0 +1,240 @@
+.one{
+  background-image: url(images/1photo.jpg);
+  width: 900px;
+  height: 600px;
+
+}
+.dark{
+    display: grid;
+    grid-template-columns: auto;
+    color: aliceblue;
+    text-align: center;
+    font-size: 34px;
+    
+}
+
+
+.logo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.brown{
+    color: rgb(126, 42, 42);
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.house{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.decor{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.h3{
+    color: brown;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.seats{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.lth{
+    color: brown;
+}
+.br{
+    color: black;
+}
+.but2{
+    color: brown;
+    padding: 4px;
+    border-radius: 10px;
+}
+.masters{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.quo{
+    text-align: left;
+    font-size: 40px;
+    color: brown;
+}
+.reviews{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(202, 125, 151);
+}
+.pres{
+    color: brown;
+
+}
+.hey{
+    color: brown;
+    text-align: center;
+    font-weight: lighter;
+    
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+trick{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.black{
+    display: flex;
+}
+.comp{
+    height: 400px;
+}
+.lapy{
+    display: grid;
+    grid-template-rows: auto;
+   
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: aliceblue;
+}
+.taste{
+    font-size: 20px;
+}
+button{
+    color: white;
+    background-color: brown;
+}
+@media screen and(max-width:456px) {
+    .one{
+        background-image: url(images/1photo.jpg);
+        width: 900px;
+        height: 600px;
+      
+      }
+      .dark{
+          display: grid;
+          grid-template-columns: auto;
+          color: aliceblue;
+          text-align: center;
+          font-size: 34px;
+          
+      }
+      
+      
+      .logo{
+          display: grid;
+          grid-template-columns: auto auto auto;
+      }
+      .brown{
+          color: rgb(126, 42, 42);
+          font-size: small;
+          font-weight: lighter;
+          text-align: center;
+      }
+      h1{
+          text-align: center;
+      }
+      .house{
+          display: grid;
+          grid-template-columns: auto auto auto;
+      
+      }
+      .decor{
+          font-size: 20px;
+          font-weight: 600;
+      
+      }
+      .h3{
+          color: brown;
+          text-align: center;
+          font-size: 15px;
+          font-weight: lighter;
+      }
+      .seats{
+          display: grid;
+          grid-template-columns: auto auto;
+      }
+      .lth{
+          color: brown;
+      }
+      .br{
+          color: black;
+      }
+      .but2{
+          color: brown;
+          padding: 4px;
+          border-radius: 10px;
+      }
+      .masters{
+          display: grid;
+          grid-template-columns: auto auto;
+      }
+      .quo{
+          text-align: left;
+          font-size: 40px;
+          color: brown;
+      }
+      .reviews{
+          
+          display: grid;
+          grid-template-columns: auto auto auto;
+          background-color: rgb(202, 125, 151);
+      }
+      .pres{
+          color: brown;
+      
+      }
+      .hey{
+          color: brown;
+          text-align: center;
+          font-weight: lighter;
+          
+      }
+      .para{
+          text-align: center;
+          font-size: 20px;
+          font-weight: 100;
+      }
+      trick{
+          display: grid;
+          grid-template-columns: auto auto;
+      }
+      .black{
+          display: flex;
+      }
+      .comp{
+          height: 400px;
+      }
+      .lapy{
+          display: grid;
+          grid-template-rows: auto;
+         
+      }
+      .footer{
+          background-color: black;
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          color: aliceblue;
+      }
+      .taste{
+          font-size: 20px;
+      }
+      button{
+          color: white;
+          background-color: brown;
+
+    
+}
+}
